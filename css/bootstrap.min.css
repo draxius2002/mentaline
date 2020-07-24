@@ -855,7 +855,7 @@ pre code {
   margin-left: 91.66667%;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 450px) {
   .col-xs-auto {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
