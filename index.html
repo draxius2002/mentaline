@@ -5,9 +5,10 @@
     <link rel="icon" type="image/png" href="images/icon.png" sizes="32x32">
     <title>MentaLine App</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
     <!--I just add it-->
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/c7e87e679a/UntitledProject/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700, 900|Vollkorn:400i" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
@@ -44,6 +45,34 @@
     .para2 {
         font-size: 50px !important;
         color: #626262 !important;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    body {
+        width: 100% !important;
+        height: 100% !important;
+        display: block !important;
+        position:relative;
+
+    }
+
+    body::after {
+        content: "" !important;
+        background-image: url(images/logo.png)  !important;
+        background-repeat:fixed;
+        opacity: 0.3 !important;
+        top: 0 !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        position:fixed;
+        z-index: -1 !important;
     }
 </style>
 
@@ -85,17 +114,20 @@
 
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                                <li><a href="#about-section" class="nav-link">About Us</a></li>
+                                <li><a href="#about-section" class="nav-link">About</a></li>
                                 <li><a href="#services-section" class="nav-link">Services</a></li>
+                                <li><a href="https://forms.gle/F9nyFUME5gX1WR1H9" target="_blank" class="nav-link">Be Our Partner</a>
+                                </li>
+                                <li><a href="#" class="nav-link">Book Now</a></li>
                                 <li><a href="#contact-section" class="nav-link">Contact Us</a></li>
                             </ul>
                         </nav>
                     </div>
 
-
                     <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a
-                            href="#" class="site-menu-toggle js-menu-toggle float-right"><span
-                                class="icon-menu h3"></span></a></div>
+                            href="#" class="site-menu-toggle js-menu-toggle float-right">
+                            <span class="icon-menu h3"></span></a>
+                    </div>
 
                 </div>
             </div>
@@ -103,27 +135,24 @@
         </header>
 
 
+
         <section class="site-blocks-cover overflow-hidden bg-light">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-7 align-self-center text-center text-md-left">
+                <div class="row ">
+                    <div class="align-self-center  text-md-left  align-center col-xl-6 col-md-6 col-lg-6 col-sm-12">
                         <div class="intro-text">
                             <h1 class="para2 para">Welcome To </h1>
                             <h1 class="para1 para">MentaLine</h1>
-                            <p class="mb-4">Your Mental Wellbeing is our #1 Priority.</p>
+                            <p>One stop platform for you to meet mental expertise</p>
                         </div>
                     </div>
-                    <div class="col-md-5 align-self-end text-center text-md-right">
-                        <span><img src="images/logo.png" alt="Image" class="cover-img"></span>
+                    <div class="align-self-center text-md-right align-center col-xl-6 col-md-6 col-lg-6 col-sm-12">
+                        <span> <img class="mb-5" src="images/logo.png" style="width:100%;" alt="Image"
+                                class="cover-img"></span>
                     </div>
                 </div>
             </div>
         </section>
-
-
-
-
-
 
         <section class="site-section" id="about-section">
             <div class="container">
@@ -133,16 +162,16 @@
                         <div class="icon-clouds">
                             <span class="icon-cloud"></span>
                         </div>
-                        <h2 class="text-black mb-2">About Us</h2>
+                        <h2 class="text-black mb-2">About</h2>
                         <p></p>
                     </div>
 
 
                     <div class="col-lg-12 align-self-center mr-auto text-left heading-section mb-5">
-                        <div class="paws ml-4">
+                        <div class="icon-clouds ml-4">
                             <span class="icon-cloud"></span>
                         </div>
-                        <h2 class="text-black mb-3">Our Story</h2>
+                        <h2 class="text-black mb-3">MentaLine App</h2>
                         <p class="lead text-justify">It all began during a historic pandemic in 2020, when World Health
                             Organization
                             (WHO) declared the outbreak of a new coronavirus disease, COVID-19, to be a Public Health
@@ -157,7 +186,7 @@
                             service providers. The fruits of our labour will be the application that one only needs for
                             their mental wellbeing. </p>
                         <div class="col-lg-12 text-center heading-section mb-5 ">
-                            <div class="paws ml-4">
+                            <div class="icon-clouds ml-4">
                                 <span class="icon-cloud"></span>
                             </div>
                             <h2 class="text-black mb-3 ">Vision</h2>
@@ -165,7 +194,7 @@
                             </p>
                         </div>
                         <div class="col-lg-12 text-center heading-section mb-5 ">
-                            <div class="paws ml-4">
+                            <div class="icon-clouds ml-4">
                                 <span class="icon-cloud"></span>
                             </div>
                             <h2 class="text-black mb-3">Mission</h2>
@@ -188,7 +217,7 @@
             <div class="container">
                 <div class="row justify-content-center" data-aos="fade-up">
                     <div class="col-lg-6 text-center heading-section mb-5">
-                        <div class="paws">
+                        <div class="icon-clouds">
                             <span class="icon-cloud"></span>
                         </div>
                         <h2 class="text-black mb-2">Our Services</h2>
@@ -199,7 +228,7 @@
 
                         <div class="block_service">
                             <img src="images/dogger_checkup.svg" alt="Image mb-5">
-                            <h3>Virtual Consultation</h3>
+                            <h3>Online Consultation</h3>
                             <p>You don’t have time to drive to seek for professional treatment? Book your virtual
                                 consultation with us</p>
                         </div>
@@ -207,7 +236,7 @@
                     </div>
                     <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="block_service">
-                            <img src="images/dogger_dermatology.svg" alt="Image mb-5">
+                            <img src="images/s1.png" alt="Image mb-5">
                             <h3>Personality / Behavioural Test</h3>
                             <p>What’s your behaviour said about you? Try and determines it using our personality tests.
                             </p>
@@ -215,7 +244,7 @@
                     </div>
                     <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="block_service">
-                            <img src="images/dogger_bones.svg" alt="Image mb-5">
+                            <img src="images/s1.png" class="center" alt="Image mb-5">
                             <h3>Large Network of Support Groups</h3>
                             <p>Think that you are alone? Come join our support group and you will never be alone</p>
                         </div>
@@ -281,7 +310,7 @@
                     <div class="col-lg-6 bg-secondary">
                         <div class="row justify-content-center align-items-center h-100">
                             <div class="col-lg-6 text-center heading-section mb-5 align-self-center">
-                                <div class="paws">
+                                <div class="icon-clouds">
                                     <span class="icon-cloud"></span>
                                 </div>
                                 <h2 class="text-white mb-5">Contact Us</h2>
@@ -315,15 +344,17 @@
                     <div class="col-md-9">
                         <div class="row">
                             <div class="col-md-5">
-                                <h2 class="footer-heading mb-4">About Us</h2>
+                                <h2 class="footer-heading mb-4">About MentaLine</h2>
                                 <p>MentaLine was started by a group of friends that passionate to connect the patient to
                                     the doctor.</p>
                             </div>
                             <div class="col-md-3 ml-auto">
                                 <h2 class="footer-heading mb-4">Quick Links</h2>
                                 <ul class="list-unstyled">
-                                    <li><a href="#about-section" class="smoothscroll">About Us</a></li>
+                                    <li><a href="#about-section" class="smoothscroll">About</a></li>
                                     <li><a href="#services-section" class="smoothscroll">Services</a></li>
+                                    <li><a href="#" class="smoothscroll">Be Our Partner</a></li>
+                                    <li><a href="#" class="smoothscroll">Book Now</a></li>
                                     <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
                                 </ul>
                             </div>

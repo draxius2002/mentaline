@@ -585,8 +585,11 @@
 .icon-link:before {
   content: "\f0c1";
 }
-.icon-cloud:before {
+.icon-paw:before {
   content: "\f0c2";
+}
+.icon-cloud:before {
+  content: "\e9c1";
 }
 .icon-flask:before {
   content: "\f0c3";
