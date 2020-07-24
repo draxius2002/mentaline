@@ -865,11 +865,11 @@ pre code {
   }
 
   .p-xs-0 {
-    padding: 0 !important;
+    padding: auto !important;
   }
 
   .p-xs-1 {
-    padding: 1.5rem !important;
+    padding: auto !important;
   }
 
 }
