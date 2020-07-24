@@ -855,6 +855,25 @@ pre code {
   margin-left: 91.66667%;
 }
 
+@media (min-width: 500px) {
+  .col-xs-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .p-xs-0 {
+    padding: 0 !important;
+  }
+
+  .p-xs-1 {
+    padding: 1.5rem !important;
+  }
+
+}
+
 @media (min-width: 576px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
